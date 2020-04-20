@@ -29,6 +29,10 @@ hexo.extend.helper.register('totalcount', function (site) {
     var len = counter(post.content);
     count += len[0] + len[1];
   });
+  site.pages.forEach(function (post) {
+    var len = counter(post.content);
+    count += len[0] + len[1];
+  });
   if (count < 1000) {
     return count;
   }

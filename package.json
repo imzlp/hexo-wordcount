@@ -1,13 +1,13 @@
 {
-  "name": "hexo-wordcount",
-  "version": "6.0.1",
+  "name": "hexo-wordcount-with-pages",
+  "version": "6.0.2",
   "description": "Post Word Count Plugin of Hexo.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/willin/hexo-wordcount.git"
+    "url": "git+https://github.com/imzlp/hexo-wordcount.git"
   },
-  "homepage": "https://github.com/willin/hexo-wordcount",
+  "homepage": "https://github.com/imzlp/hexo-wordcount",
   "keywords": [
     "hexo",
     "wordcount",
